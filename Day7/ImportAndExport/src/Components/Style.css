@@ -1,0 +1,62 @@
+*{
+    background-color: lightgray;
+}
+.Main{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width:300px;
+    height: 350px;
+    border: 2px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin:20px;
+    transition: all 0.3s ease;   
+}
+.container1:hover{
+    transform: translateY(-8px);
+}
+.Box li{
+    list-style: none;
+    font-size: 18px;
+    padding: 5px;
+}
+.red {
+    border-top: 6px solid #e63946;
+}
+.yellow {
+    border-top: 6px solid yellow;
+}
+.green {
+    border-top: 6px solid green;
+}
+.purple{
+    border-top:6px solid purple ;
+}
+.orange{
+    border-top:6px solid orange;
+}
+
+.white{
+    border-top:6px solid white;
+}
+
+.brown{
+    border-top:6px solid brown;
+}
+
+.copy{
+    background-color: #1f2933;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 10px;
+    margin-top: 30px;
+    font-size: 20px;
+}
